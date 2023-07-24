@@ -1,12 +1,11 @@
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+$primary: #ffd900;
 
-$custom-colors: (
-  "custom-color": #ffd900,
-  "primary": red,
+$theme-colors: (
+    "primary": $primary
 );
 
-$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 /* Estilos generales */
