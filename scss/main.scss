@@ -1,3 +1,14 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$custom-colors: (
+  "custom-color": #ffd900,
+  "primary": red,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
 /* Estilos generales */
 html, body {
     height: 100%;
