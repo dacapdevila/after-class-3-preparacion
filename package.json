@@ -1,0 +1,17 @@
+{
+  "name": "tech_project",
+  "version": "1.0.0",
+  "description": "An educational project",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass scss:css",
+    "watch:scss": "sass --watch scss:css",
+    "build": "npm run scss"
+  },
+  "devDependencies": {
+    "sass":"1.64.1",
+    "bootstrap": "5.3.0"
+  },
+  "author": "Dario Capdevila",
+  "license": "ISC"
+}
